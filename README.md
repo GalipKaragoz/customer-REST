@@ -20,9 +20,9 @@ mvn spring-boot:run
 
 ## Endpoints
 
-`GET` - `/customers` - Returns all customers
-`GET` - `/customers/{id} - Get customer by Id
-`GET` - `/customers/search?name={query} - Search customer by Name
-`POST` - `/customers` - Add Customer
-`PUT` - `/customers/{id}` - Update Customer
-`DELETE1 - `/customers/{id}- Delete Customer
+- `GET`  `/customers`  Returns all customers
+- `GET`  `/customers/{id}`  Get customer by Id
+- `GET`  `/customers/search?name={query}`  Search customer by Name
+- `POST`  `/customers`  Add Customer
+- `PUT`  `/customers/{id}` Update Customer
+- `DELETE`  `/customers/{id}` Delete Customer
