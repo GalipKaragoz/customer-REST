@@ -1,4 +1,4 @@
-package com.bibek.customersvc;
+package com.ezgetech.customer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

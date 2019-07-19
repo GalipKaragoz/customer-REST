@@ -1,20 +1,20 @@
-package com.bibek.customersvc.services;
+package com.ezgetech.customer.services;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.ezgetech.customer.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bibek.customersvc.models.Customer;
-import com.bibek.customersvc.repository.CustomerRepository;
+import com.ezgetech.customer.models.Customer;
 
 @Service
 public class CustomerService {
 	
 	@Autowired
-	CustomerRepository customerRepository;
+    private CustomerRepository customerRepository;
 
 	public ArrayList<Customer> getCustomers(){
 		return (ArrayList<Customer>) customerRepository.findAll();

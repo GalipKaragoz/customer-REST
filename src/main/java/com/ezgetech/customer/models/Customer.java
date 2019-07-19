@@ -1,4 +1,4 @@
-package com.bibek.customersvc.models;
+package com.ezgetech.customer.models;
 
 import java.util.Date;
 

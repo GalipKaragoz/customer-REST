@@ -1,4 +1,4 @@
-package com.bibek.customersvc.controllers;
+package com.ezgetech.customer.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bibek.customersvc.models.Customer;
-import com.bibek.customersvc.services.CustomerService;
+import com.ezgetech.customer.models.Customer;
+import com.ezgetech.customer.services.CustomerService;
 
 @CrossOrigin(origins="*")
 @RestController
@@ -24,7 +24,7 @@ import com.bibek.customersvc.services.CustomerService;
 public class CustomerController {
 	
 	@Autowired
-	CustomerService customerService;
+	private CustomerService customerService;
 
 	@GetMapping
 	public ArrayList<Customer> getCustomers(){
